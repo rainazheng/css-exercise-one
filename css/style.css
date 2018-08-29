@@ -44,6 +44,6 @@ h3 {
 }
 
 /* sets bg color for just the last three div elements */
-#other {
+.other {
   background-color: blue;
 }
