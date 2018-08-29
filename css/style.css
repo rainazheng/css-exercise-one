@@ -1,36 +1,49 @@
-body
+/* sets all font sizes in the body to 14px */
+body {
   font-size: 14px;
 }
 
+/* sets nav properties */
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
-
+/* sets section properties */
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+/* sets h1 properties */
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
+/* sets padding and text alignment for h1 content and h3 content */
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
+/* sets font size for just h3 content */
 h3 {
   font-size: 1.3em;
 }
 
+/* sets properties for div elements */
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+/* sets bg color for just the last three div elements */
+#other {
+  background-color: blue;
+}
